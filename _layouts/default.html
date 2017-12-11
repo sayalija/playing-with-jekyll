@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Playing With Jekyll</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
   </head>
   <body>
 
@@ -10,12 +11,7 @@
       <strong>Loud And Proud</strong>
     </header>
 
-    <nav>
-      <ul>
-        <li> <a href="{{site.baseurl}}/index.html">Home</a></li>
-        <li> <a href="{{site.baseurl}}/why-objects.html">Why Objects?</a></li>
-      </ul>
-    </nav>
+    {% include nav.html %}
 
     {{content}}
   </body>

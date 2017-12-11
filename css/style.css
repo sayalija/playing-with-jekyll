@@ -1,0 +1,12 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 25%;
+    background-color: #dddddd;
+}
+
+nav li a {
+    display: block;
+    margin: 10px 0px;
+}
