@@ -1,3 +1,2 @@
-markdown: redcarpet
 baseurl: /playing-with-jekyll
 exclude: ['README.md']
